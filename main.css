@@ -72,7 +72,6 @@ html{
 .heading{
   color: white;
   font-size: 3rem;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   transform: scale(1,1.3);
 }
@@ -84,6 +83,146 @@ html{
   background-color: black;
 }
 
-#prohects h1{
+#projects h1{
   margin: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gallery {
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gallery img{
+  width:100%;
+  padding:10px;
+  margin: 10px;
+}
+
+.gallery img:hover{
+  background-color: white;
+  cursor: pointer;
+}
+
+#education{
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(65, 65, 65);
+  align-items: center;
+}
+
+#education h1{
+  margin: 60px;
+}
+
+.columns{
+  display: grid;
+  grid-template-columns:auto auto;
+  align-items: center;
+}
+
+.box{
+  height: 200px;
+  width:500px;
+  background-color: rgb(121, 121, 121);
+  border-radius: 20px;
+  margin: 40px;
+  padding: 20px;
+  margin-bottom: 40px;
+
+}
+
+.box h2{
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.box p{
+  color:rgb(6, 173, 0);
+  font-size: 1.1rem;
+}
+
+#about{
+  display:flex;
+  flex-direction: column;
+  text-align: justify;
+  background-color: black;
+}
+
+#about h1{
+  color:white;
+  margin: 55px;
+}
+
+.about{
+  display: flex;
+  align-items: center;
+  margin-bottom:20px;
+}
+
+.about img{
+  width:500px;
+  height:400px;
+  padding:0px 30px;
+}
+
+.name{
+  padding:10px
+}
+
+.name h2{
+  font-size: 2rem;
+  color: white;
+}
+
+.name p{
+  font-size: 1.2rem;
+  color: rgb(177, 177, 177);
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(65, 65, 65);
+}
+
+#contact h1{
+  margin: 50px ;
+}
+
+#contact h4{
+  color: white;
+  text-align: center;
+}
+
+.contact-content{
+  text-align: center;
+  margin: 50px ;
+}
+
+footer{
+  position: fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  background-color: chocolate;
+  color: aliceblue;
+  text-align: center;
+}
+
+.footer-content{
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: fantasy;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.4;
+  letter-spacing: .03em;
+  font-size: 1em;
+}
+
+.credit{
+  text-align: center;
 }
